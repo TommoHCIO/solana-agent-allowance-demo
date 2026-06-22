@@ -1,0 +1,21 @@
+{
+  "name": "solana-agent-allowance-demo",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Technical demo for Solana Native Subscriptions & Allowances: bounded AI-agent spending, recurring budgets, and subscription pull planning.",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "demo": "tsx src/demo.ts",
+    "test": "tsx --test test/*.test.ts",
+    "verify": "npm run build && npm test && npm run demo"
+  },
+  "keywords": ["solana", "subscriptions", "allowances", "ai-agents", "usdc", "superteam"],
+  "author": "TommoHCIO",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
